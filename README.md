@@ -7,6 +7,8 @@
 <h3>Overview</h3>  
 <p>This is a keras implementation of Bi-GRU-Capsnet for the students answers assessment. 
 
+ ![image](https://github.com/user-attachments/assets/aefda763-cf03-42c6-9e16-441e2e04d275)
+
 <h3> Data </h3>
 <p> DT-Grade : collected from the interaction of students with DeepTutor.
 <p> Data Download: <a href="http://deeptutor.memphis.edu/resources.htm">DT-Grade Dataset</a>
