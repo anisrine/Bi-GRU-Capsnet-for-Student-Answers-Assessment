@@ -3,31 +3,29 @@
 
  </head>
 <body>
-<h3> Bi-GRU-Capsnet for student answers assessment </h3>
-  
+<h2> Bi-GRU-Capsnet for student answers assessment </h2>
+<h3>Overview</h3>  
 <p>This is a keras implementation of Bi-GRU-Capsnet for the students answers assessment. 
-<p>Ait Khayi, N., & Rus, V.Bi-gru capsule networks for student answers assessment.DL4Ed-KDD 2019  <a href="http://ml4ed.cc/attachments/Khayi.pdf">[paper]</a>
 
-
-<h3> Requirements </h3>
-<p>keras and tensorflow
-  
 <h3> Data </h3>
 <p> DT-Grade : collected from the interaction of students with DeepTutor.
 <p> Data Download: <a href="http://deeptutor.memphis.edu/resources.htm">DT-Grade Dataset</a>
 <p> Paper:  <a href="https://www.aclweb.org/anthology/W16-0520.pdf">Evaluation Dataset (DT-Grade) and Word Weighting Approach towards
-Constructed Short Answers Assessment in Tutorial Dialogue Context</a>. ACL.
+Constructed Short Answers Assessment in Tutorial Dialogue Context</a>
 
-<h3>Model Architecture</h3>
-<img src="https://i.postimg.cc/qB1tFCrg/capsnet.jpg" alt="Bi-GRU-Capsnet Architecture">
-<p> The model consists of the following components : <br>
-    <ul>
-    <li>Embedding Layer (Glove,Word2vec,Elmo) </li>
-    <li>Bi-GRU Layer</li>
-    <li>Capsule Layer</li>
-    <li> Softmax Layer</li>
+<h3>Usage</h3>
+python capsnet-elmo.py
+python capsnet_word2vec.py
+
+<h3> Dependencies </h3>
+<ul>
+    <li>keras </li>
+    <li>tensorflow</li>    
 </ul>
 
+<h3> Citation </h3>
+Ait Khayi, N., & Rus, V. (2019). Bi-GRU Capsule Networks for Student Answers Assessment. In Proceedings of The 2019 KDD Workshop on Deep Learning for Education (DL4Ed) in conjunction with the 25th ACM SIGKDD Conference on Knowledge Discovery 
+<a href="http://ml4ed.cc/attachments/Khayi.pdf">[paper]</a>
 </body>
 </html>
 
